@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_edu_sau_sausensor_server_domain_Mts400ResultsL" modelAttribute="mts400ResultsL" path="/mts400resultsls" versionField="none" z="7zJ1E9JZEdKuFGlGlwe0USBJvrQ=">
+        <field:input field="accelX" id="c_edu_sau_sausensor_server_domain_Mts400ResultsL_accelX" validationMessageCode="field_invalid_integer" z="Van4uf5DTK5YA8+hUXkcrYiV0JM="/>
+        <field:input field="accelY" id="c_edu_sau_sausensor_server_domain_Mts400ResultsL_accelY" validationMessageCode="field_invalid_integer" z="S8hY61DQLdhvoqhGkZIvc6wukHU="/>
+        <field:input field="epoch" id="c_edu_sau_sausensor_server_domain_Mts400ResultsL_epoch" validationMessageCode="field_invalid_integer" z="jhIsxWYMWQOUDV4/kY2Qwp6Ddiw="/>
+        <field:input field="humid" id="c_edu_sau_sausensor_server_domain_Mts400ResultsL_humid" validationMessageCode="field_invalid_integer" z="piDHSMa68XsLaJd4GkUm0m+I/9g="/>
+        <field:input field="humtemp" id="c_edu_sau_sausensor_server_domain_Mts400ResultsL_humtemp" validationMessageCode="field_invalid_integer" z="T+wEYV1abdg5ndDM6uUbUS17Ayg="/>
+        <field:input field="nodeid" id="c_edu_sau_sausensor_server_domain_Mts400ResultsL_nodeid" validationMessageCode="field_invalid_integer" z="I/BtobOSy0pdGOjsS++M0s5rpxU="/>
+        <field:input field="parent" id="c_edu_sau_sausensor_server_domain_Mts400ResultsL_parent" validationMessageCode="field_invalid_integer" z="g1gXDoFbovDqY7INVvjEGIaNib4="/>
+        <field:input field="press" id="c_edu_sau_sausensor_server_domain_Mts400ResultsL_press" validationMessageCode="field_invalid_integer" z="gyB0ukvkxJBNocT3GQzNb2+ZCRI="/>
+        <field:input field="prtemp" id="c_edu_sau_sausensor_server_domain_Mts400ResultsL_prtemp" validationMessageCode="field_invalid_integer" z="UGXWw/cuWT6yWKZ5JfGPHF+IhIk="/>
+        <field:datetime dateTimePattern="${mts400ResultsL_resulttime_date_format}" field="resultTime" id="c_edu_sau_sausensor_server_domain_Mts400ResultsL_resultTime" z="2TKNL6Oi8skwIx5RfK/yhwyDT1o="/>
+        <field:input field="taosch0" id="c_edu_sau_sausensor_server_domain_Mts400ResultsL_taosch0" validationMessageCode="field_invalid_integer" z="FywyXxP2njfozSbwSghT+OV2j/c="/>
+        <field:input field="taosch1" id="c_edu_sau_sausensor_server_domain_Mts400ResultsL_taosch1" validationMessageCode="field_invalid_integer" z="cvrcwJKyPOs3j1RCBqtDYfurlMU="/>
+        <field:input field="voltage" id="c_edu_sau_sausensor_server_domain_Mts400ResultsL_voltage" validationMessageCode="field_invalid_integer" z="HHQSEQA8tWP/6GEMz0Sbrvurl94="/>
+    </form:update>
+</div>

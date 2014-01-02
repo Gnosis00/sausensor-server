@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_edu_sau_sausensor_server_domain_NodeHealthL" items="${nodehealthls}" z="us+J7fxUcDxXyGGXM1og8YEaNDM=">
+        <table:table data="${nodehealthls}" id="l_edu_sau_sausensor_server_domain_NodeHealthL" path="/nodehealthls" z="ezqN9kK/u7filgeb/JEiG+hqDac=">
+            <table:column id="c_edu_sau_sausensor_server_domain_NodeHealthL_battery" property="battery" z="61kLkl3uTEMM85NLLoa4kKgzEgI="/>
+            <table:column id="c_edu_sau_sausensor_server_domain_NodeHealthL_boardId" property="boardId" z="Lz9aVh89p3+n1lRziTKWLO2TnU4="/>
+            <table:column id="c_edu_sau_sausensor_server_domain_NodeHealthL_dropped" property="dropped" z="lYEd8ZP44gusZZc9EvbjrQMu4mw="/>
+            <table:column id="c_edu_sau_sausensor_server_domain_NodeHealthL_epoch" property="epoch" z="qlZZFKkA2lGNuf4rR0MKcddjRlw="/>
+            <table:column id="c_edu_sau_sausensor_server_domain_NodeHealthL_forwarded" property="forwarded" z="GvwwOCu+HVpY71O1hrIXb483F2k="/>
+            <table:column id="c_edu_sau_sausensor_server_domain_NodeHealthL_healthPkts" property="healthPkts" z="vQCNpnZYBomQd7NEyGIDJRZhKr4="/>
+        </table:table>
+    </page:list>
+</div>

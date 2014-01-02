@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_edu_sau_sausensor_server_domain_Sensor" items="${sensors}" z="tFr7ziS5CPIN3d3UvE1z1hlT7fY=">
+        <table:table data="${sensors}" id="l_edu_sau_sausensor_server_domain_Sensor" path="/sensors" z="O6ramjX5UWO3/iGQIxf4IKE92tI=">
+            <table:column id="c_edu_sau_sausensor_server_domain_Sensor_nodeid" property="nodeid" z="dVYRHrKCorI/u4Ona+LDglDjeMs="/>
+            <table:column id="c_edu_sau_sausensor_server_domain_Sensor_area" property="area" z="LVLWjkpjUfiDHWcnOvkHqds+neo="/>
+            <table:column id="c_edu_sau_sausensor_server_domain_Sensor_person" property="person" z="42nNzPQmri2ISQWoQfB8zuQi8tM="/>
+        </table:table>
+    </page:list>
+</div>

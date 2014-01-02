@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_edu_sau_sausensor_server_domain_Mts400Results" object="${mts400results}" path="/mts400resultses" z="j3+DfV/ouQORAIp23Mlo3QqNWcc=">
+        <field:display field="accelX" id="s_edu_sau_sausensor_server_domain_Mts400Results_accelX" object="${mts400results}" z="4eYtI3USqfFCVdCcm4uFUVS2b3s="/>
+        <field:display field="accelY" id="s_edu_sau_sausensor_server_domain_Mts400Results_accelY" object="${mts400results}" z="YrozwFSGJSUGQPOGfip1ntSw2CM="/>
+        <field:display field="epoch" id="s_edu_sau_sausensor_server_domain_Mts400Results_epoch" object="${mts400results}" z="RzG1ygcraR6CJala5FGkVw6fp+E="/>
+        <field:display field="humid" id="s_edu_sau_sausensor_server_domain_Mts400Results_humid" object="${mts400results}" z="USKtxi0gJxmpguMvdaY4BpeP/5Y="/>
+        <field:display field="humtemp" id="s_edu_sau_sausensor_server_domain_Mts400Results_humtemp" object="${mts400results}" z="14T4Y0uModSnylU34dHhFM6Ici8="/>
+        <field:display field="nodeid" id="s_edu_sau_sausensor_server_domain_Mts400Results_nodeid" object="${mts400results}" z="rocXqMDgwUzaYFYgbBm7VskB5yU="/>
+        <field:display field="parent" id="s_edu_sau_sausensor_server_domain_Mts400Results_parent" object="${mts400results}" z="5BhhDE4NqMzG/GvF83Mbke1/Tqk="/>
+        <field:display field="press" id="s_edu_sau_sausensor_server_domain_Mts400Results_press" object="${mts400results}" z="e6ZKXpMhPcCV9tpmCS915GKfbDI="/>
+        <field:display field="prtemp" id="s_edu_sau_sausensor_server_domain_Mts400Results_prtemp" object="${mts400results}" z="l7oPiFbFbccTG0OheJW/XeU27hc="/>
+        <field:display calendar="true" dateTimePattern="${mts400Results_resulttime_date_format}" field="resultTime" id="s_edu_sau_sausensor_server_domain_Mts400Results_resultTime" object="${mts400results}" z="fXwpkDjoCJ08VqXL2w+sykty6p4="/>
+        <field:display field="taosch0" id="s_edu_sau_sausensor_server_domain_Mts400Results_taosch0" object="${mts400results}" z="x8mg5IYDfMUHu+oie4G6ZY+yJ4U="/>
+        <field:display field="taosch1" id="s_edu_sau_sausensor_server_domain_Mts400Results_taosch1" object="${mts400results}" z="UcUKStoixn6cKh1kfFMwF5SwytQ="/>
+        <field:display field="voltage" id="s_edu_sau_sausensor_server_domain_Mts400Results_voltage" object="${mts400results}" z="2ZJFn5AHTZF/HSyMK4A1x+6kMME="/>
+    </page:show>
+</div>

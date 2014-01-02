@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="nodehealths/list">
+        <put-attribute name="body" value="/WEB-INF/views/nodehealths/list.jspx"/>
+    </definition>
+<definition extends="default" name="nodehealths/show">
+        <put-attribute name="body" value="/WEB-INF/views/nodehealths/show.jspx"/>
+    </definition>
+<definition extends="default" name="nodehealths/create">
+        <put-attribute name="body" value="/WEB-INF/views/nodehealths/create.jspx"/>
+    </definition>
+<definition extends="default" name="nodehealths/update">
+        <put-attribute name="body" value="/WEB-INF/views/nodehealths/update.jspx"/>
+    </definition>
+<definition extends="default" name="nodehealths/findNodeHealthsByNodeidEquals">
+        <put-attribute name="body" value="/WEB-INF/views/nodehealths/findNodeHealthsByNodeidEquals.jspx"/>
+    </definition>
+</tiles-definitions>

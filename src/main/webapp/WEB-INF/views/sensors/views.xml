@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="sensors/list">
+        <put-attribute name="body" value="/WEB-INF/views/sensors/list.jspx"/>
+    </definition>
+<definition extends="default" name="sensors/show">
+        <put-attribute name="body" value="/WEB-INF/views/sensors/show.jspx"/>
+    </definition>
+<definition extends="default" name="sensors/create">
+        <put-attribute name="body" value="/WEB-INF/views/sensors/create.jspx"/>
+    </definition>
+<definition extends="default" name="sensors/update">
+        <put-attribute name="body" value="/WEB-INF/views/sensors/update.jspx"/>
+    </definition>
+<definition extends="default" name="sensors/findSensorsByArea">
+        <put-attribute name="body" value="/WEB-INF/views/sensors/findSensorsByArea.jspx"/>
+    </definition>
+<definition extends="default" name="sensors/findSensorsByNodeid">
+        <put-attribute name="body" value="/WEB-INF/views/sensors/findSensorsByNodeid.jspx"/>
+    </definition>
+<definition extends="default" name="sensors/findSensorsByPerson">
+        <put-attribute name="body" value="/WEB-INF/views/sensors/findSensorsByPerson.jspx"/>
+    </definition>
+</tiles-definitions>

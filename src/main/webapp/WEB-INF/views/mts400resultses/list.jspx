@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_edu_sau_sausensor_server_domain_Mts400Results" items="${mts400resultses}" z="eqF0PPGBNAtxfjNcXyhOjXViq58=">
+        <table:table data="${mts400resultses}" id="l_edu_sau_sausensor_server_domain_Mts400Results" path="/mts400resultses" z="1Gxp/IYSuBOYfgvqdcVqtiI6Aok=">
+            <table:column id="c_edu_sau_sausensor_server_domain_Mts400Results_accelX" property="accelX" z="qHqQWWupL/LNkq+D54cAov/Exy8="/>
+            <table:column id="c_edu_sau_sausensor_server_domain_Mts400Results_accelY" property="accelY" z="PQrx+ZQ5OXkX2V+YSc++PSi6uS0="/>
+            <table:column id="c_edu_sau_sausensor_server_domain_Mts400Results_epoch" property="epoch" z="NyQwCMky07tYBz5TKbSvZM6MhkA="/>
+            <table:column id="c_edu_sau_sausensor_server_domain_Mts400Results_humid" property="humid" z="qHeVgYSa4rcJHNpNxFp/IDKKWRw="/>
+            <table:column id="c_edu_sau_sausensor_server_domain_Mts400Results_humtemp" property="humtemp" z="J5IVzmGTeQ7Xd9Y87M6ru21Kqpo="/>
+            <table:column id="c_edu_sau_sausensor_server_domain_Mts400Results_nodeid" property="nodeid" z="lCq9Wm+Ere2S2qHopF3bdGGGifg="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_mts400results" z="OKrLTufj1mzCezv7XGbr0B936Q8=">
+            <menu:item id="i_mts400results_new" messageCode="global_menu_new" url="/mts400resultses?form" z="BgDoXSuybapkGkti3grNIKlt1ng="/>
+            <menu:item id="i_mts400results_list" messageCode="global_menu_list" url="/mts400resultses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="XhyaQ4izUUGuFLf3G7UykwtBlS4="/>
+            <menu:item id="fi_mts400results_nodeidequals" messageCode="global_menu_find" url="/mts400resultses?find=ByNodeidEquals&amp;form" z="rO0cGUqWFYvEkGuA5REf2lKzito="/>
+        </menu:category>
+        <menu:category id="c_accountroles" z="0atS3gLwzsCDxiPG7IKmOWkTCxE=">
+            <menu:item id="i_accountroles_new" messageCode="global_menu_new" url="/accountroleses?form" z="P+C6ggqnZVXYfPHLizYkgesugfE="/>
+            <menu:item id="i_accountroles_list" messageCode="global_menu_list" url="/accountroleses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="t6hP8IjSS3BNqqePEABaFnd+f/8="/>
+        </menu:category>
+        <menu:category id="c_sensor" z="f40t6Pgs8ebceDrBR/mWdxExF0g=">
+            <menu:item id="i_sensor_new" messageCode="global_menu_new" url="/sensors?form" z="V4z2b0/t4gOk1wJlWjGLN0bpUvI="/>
+            <menu:item id="i_sensor_list" messageCode="global_menu_list" url="/sensors?page=1&amp;size=${empty param.size ? 10 : param.size}" z="MmHK+s9v8Uqg3YwvFGcIfl2JkVU="/>
+            <menu:item id="fi_sensor_area" messageCode="global_menu_find" url="/sensors?find=ByArea&amp;form" z="RaRZkLlIhuDMav9D9EEsG5uNYmo="/>
+            <menu:item id="fi_sensor_nodeid" messageCode="global_menu_find" url="/sensors?find=ByNodeid&amp;form" z="V++P7ytdO3DE3DDXDCVjqyC8z+o="/>
+            <menu:item id="fi_sensor_person" messageCode="global_menu_find" url="/sensors?find=ByPerson&amp;form" z="cbA3TtS3zFlkKVH7RtIFRoxk+TE="/>
+        </menu:category>
+        <menu:category id="c_nodehealth" z="0GwRJQY/cBhPs9Tv3H0CL2bksd8=">
+            <menu:item id="i_nodehealth_new" messageCode="global_menu_new" url="/nodehealths?form" z="I2zl00V2QELZYgqYJnsQaIFY3CA="/>
+            <menu:item id="i_nodehealth_list" messageCode="global_menu_list" url="/nodehealths?page=1&amp;size=${empty param.size ? 10 : param.size}" z="m1hxzupZHMbto3tg/4/4WYBzfOU="/>
+            <menu:item id="fi_nodehealth_nodeidequals" messageCode="global_menu_find" url="/nodehealths?find=ByNodeidEquals&amp;form" z="At5NkQOa9SYBzBlGJt+1b/xPFWA="/>
+        </menu:category>
+        <menu:category id="c_person" z="Cz66KzcF6GdyygpbYfiE+EkFFFA=">
+            <menu:item id="i_person_new" messageCode="global_menu_new" url="/people?form" z="IlD8NFD64X8egaRrgHbQeWKT68I="/>
+            <menu:item id="i_person_list" messageCode="global_menu_list" url="/people?page=1&amp;size=${empty param.size ? 10 : param.size}" z="MFjeqYeiMgVzk2P/OWfFpXZhhS4="/>
+        </menu:category>
+        <menu:category id="c_mts400resultsl" z="efrt/+ETsks2MuzUU/DalgXlans=">
+            <menu:item id="i_mts400resultsl_new" messageCode="global_menu_new" url="/mts400resultsls?form" z="Aj6i8KkM9LZpekrAHeHyWG/pFOw="/>
+            <menu:item id="i_mts400resultsl_list" messageCode="global_menu_list" url="/mts400resultsls?page=1&amp;size=${empty param.size ? 10 : param.size}" z="pS/p5Ns48ea5cNtlO7vhYqze0Gw="/>
+        </menu:category>
+        <menu:category id="c_account" z="/ObionklNVMvfxU5oSj2hEUJNu0=">
+            <menu:item id="i_account_new" messageCode="global_menu_new" url="/accounts?form" z="7ISq6pJsfrDJexgk1yAmzNiIcp8="/>
+            <menu:item id="i_account_list" messageCode="global_menu_list" url="/accounts?page=1&amp;size=${empty param.size ? 10 : param.size}" z="VeXZsM9n5bR9ZvhjdYhrVsG24uw="/>
+        </menu:category>
+        <menu:category id="c_nodehealthl" z="gk6yRKPwrzz5iAhCLhp0EaZw5So=">
+            <menu:item id="i_nodehealthl_new" messageCode="global_menu_new" url="/nodehealthls?form" z="JdVxZjEJl4gXE2fNFe15npdlMZs="/>
+            <menu:item id="i_nodehealthl_list" messageCode="global_menu_list" url="/nodehealthls?page=1&amp;size=${empty param.size ? 10 : param.size}" z="bXaW2jGoIjIkEcQA7owMljiP4MQ="/>
+            <menu:item id="fi_nodehealthl_nodeidequals" messageCode="global_menu_find" url="/nodehealthls?find=ByNodeidEquals&amp;form" z="tpS3bBm+KU7UZb+avRwESLRpE/0="/>
+        </menu:category>
+    </menu:menu>
+</div>

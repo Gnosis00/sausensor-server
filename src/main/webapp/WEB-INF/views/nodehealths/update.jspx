@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_edu_sau_sausensor_server_domain_NodeHealth" modelAttribute="nodeHealth" path="/nodehealths" versionField="none" z="J/HuRy240Ralb36WV/uMU9tFz0Q=">
+        <field:input field="battery" id="c_edu_sau_sausensor_server_domain_NodeHealth_battery" validationMessageCode="field_invalid_integer" z="JjMkU6ESiowICiFVhTx8XSOilbc="/>
+        <field:input field="boardId" id="c_edu_sau_sausensor_server_domain_NodeHealth_boardId" validationMessageCode="field_invalid_integer" z="V07kyFNxjRDdGGlI6LmV8iTdNpg="/>
+        <field:input field="dropped" id="c_edu_sau_sausensor_server_domain_NodeHealth_dropped" validationMessageCode="field_invalid_integer" z="ZLDLtP/PgKc6olC4Z4ZMt1FO2QQ="/>
+        <field:input field="epoch" id="c_edu_sau_sausensor_server_domain_NodeHealth_epoch" validationMessageCode="field_invalid_integer" z="bRpZjxM5bg+/OZkrImTMASG8iZY="/>
+        <field:input field="forwarded" id="c_edu_sau_sausensor_server_domain_NodeHealth_forwarded" validationMessageCode="field_invalid_integer" z="FNk+QsvV+S97frGcb+OB1tJovzY="/>
+        <field:input field="healthPkts" id="c_edu_sau_sausensor_server_domain_NodeHealth_healthPkts" validationMessageCode="field_invalid_integer" z="YJVnArJu63203KMkOptoh3Rubxk="/>
+        <field:input field="nodePkts" id="c_edu_sau_sausensor_server_domain_NodeHealth_nodePkts" validationMessageCode="field_invalid_integer" z="cVAJjoQ7TQeHaklTJp/4piwcXZM="/>
+        <field:input field="nodeid" id="c_edu_sau_sausensor_server_domain_NodeHealth_nodeid" validationMessageCode="field_invalid_integer" z="rxt7aSqgWr8as0hwTw1vz6IO47o="/>
+        <field:input field="parent" id="c_edu_sau_sausensor_server_domain_NodeHealth_parent" validationMessageCode="field_invalid_integer" z="d+puJ1qJ2lDmJl9EeerDvHsybaA="/>
+        <field:input field="parentRssi" id="c_edu_sau_sausensor_server_domain_NodeHealth_parentRssi" validationMessageCode="field_invalid_integer" z="16ZRxA9GPq/KZ/VW3VQF8xyb35U="/>
+        <field:input field="pathCost" id="c_edu_sau_sausensor_server_domain_NodeHealth_pathCost" validationMessageCode="field_invalid_integer" z="sY9jA8zCUvTkJir6XsifT5Hfb5Q="/>
+        <field:input field="powerSum" id="c_edu_sau_sausensor_server_domain_NodeHealth_powerSum" validationMessageCode="field_invalid_integer" z="Ra9uI9WvezNaeyQmFdUHDGg9y3E="/>
+        <field:input field="qualityRx" id="c_edu_sau_sausensor_server_domain_NodeHealth_qualityRx" validationMessageCode="field_invalid_integer" z="WzKvvC4hCggG5LJ15mlALwXMTJU="/>
+        <field:input field="qualityTx" id="c_edu_sau_sausensor_server_domain_NodeHealth_qualityTx" validationMessageCode="field_invalid_integer" z="7l31hhw4fE2ereVrCNTO8DzSmbY="/>
+        <field:datetime dateTimePattern="${nodeHealth_resulttime_date_format}" field="resultTime" id="c_edu_sau_sausensor_server_domain_NodeHealth_resultTime" z="CLKp2BNxSoI3eKvtywyPjKiiYJM="/>
+        <field:input field="retries" id="c_edu_sau_sausensor_server_domain_NodeHealth_retries" validationMessageCode="field_invalid_integer" z="ZHMSAUYWV3+dIt63es2kfzNXlEc="/>
+    </form:update>
+</div>

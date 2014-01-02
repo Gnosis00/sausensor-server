@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_edu_sau_sausensor_server_domain_NodeHealth" object="${nodehealth}" path="/nodehealths" z="jiRxVq6lHYXicCtkqEtIr2WnTWU=">
+        <field:display field="battery" id="s_edu_sau_sausensor_server_domain_NodeHealth_battery" object="${nodehealth}" z="x0KXlDRegRss6vsv371OmoW1hXc="/>
+        <field:display field="boardId" id="s_edu_sau_sausensor_server_domain_NodeHealth_boardId" object="${nodehealth}" z="zi4z0DSMSd+gRAnRR0tiNyTL3E8="/>
+        <field:display field="dropped" id="s_edu_sau_sausensor_server_domain_NodeHealth_dropped" object="${nodehealth}" z="SM/ol2H/guqTZJXF4MryxKCdwv8="/>
+        <field:display field="epoch" id="s_edu_sau_sausensor_server_domain_NodeHealth_epoch" object="${nodehealth}" z="JudNyl54cRzKsvryPF828Cs8lQQ="/>
+        <field:display field="forwarded" id="s_edu_sau_sausensor_server_domain_NodeHealth_forwarded" object="${nodehealth}" z="gXojjRxUlMdTBS5Ih9FXL3YAqvo="/>
+        <field:display field="healthPkts" id="s_edu_sau_sausensor_server_domain_NodeHealth_healthPkts" object="${nodehealth}" z="Ln1J8EnzaO/yvjZrLs9OMb/BBFM="/>
+        <field:display field="nodePkts" id="s_edu_sau_sausensor_server_domain_NodeHealth_nodePkts" object="${nodehealth}" z="JFyiJ4gJwhgyfhRMb7pOp2GU2SQ="/>
+        <field:display field="nodeid" id="s_edu_sau_sausensor_server_domain_NodeHealth_nodeid" object="${nodehealth}" z="VdmtX4b6n2SlQkRdzzCRRLWdLjk="/>
+        <field:display field="parent" id="s_edu_sau_sausensor_server_domain_NodeHealth_parent" object="${nodehealth}" z="hIgj4yKHuBJXn6rLO/yfXSKkPxc="/>
+        <field:display field="parentRssi" id="s_edu_sau_sausensor_server_domain_NodeHealth_parentRssi" object="${nodehealth}" z="M6oxR9abmJruU0FrqWGl97pA0YM="/>
+        <field:display field="pathCost" id="s_edu_sau_sausensor_server_domain_NodeHealth_pathCost" object="${nodehealth}" z="PDG5nasyMAsF7JzXjrKoUrKppdw="/>
+        <field:display field="powerSum" id="s_edu_sau_sausensor_server_domain_NodeHealth_powerSum" object="${nodehealth}" z="M+8VzA5r+Nel9XIxt484Lzw277g="/>
+        <field:display field="qualityRx" id="s_edu_sau_sausensor_server_domain_NodeHealth_qualityRx" object="${nodehealth}" z="ruKktcLfKiU93J1n0T0P01J8Opk="/>
+        <field:display field="qualityTx" id="s_edu_sau_sausensor_server_domain_NodeHealth_qualityTx" object="${nodehealth}" z="ZJ5u37LDELwiL3RCYngkbXrnptg="/>
+        <field:display calendar="true" dateTimePattern="${nodeHealth_resulttime_date_format}" field="resultTime" id="s_edu_sau_sausensor_server_domain_NodeHealth_resultTime" object="${nodehealth}" z="kRDroeOPn52mmaBwc1KEIkBUlpM="/>
+        <field:display field="retries" id="s_edu_sau_sausensor_server_domain_NodeHealth_retries" object="${nodehealth}" z="0IT90Fwij5t9oIuqaskbHzy87HA="/>
+    </page:show>
+</div>
