@@ -5,83 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aceaf862-7b61-458b-bbc5-913a4f3e8855" name="Default" comment="Initial commit&#10;">
-      <change type="DELETED" beforePath="C:\Users\Gnosis\Desktop\New folder (2)\sausensor-server\log.roo" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gnosis\Desktop\New folder (2)\sausensor-server\script" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gnosis\Desktop\New folder (2)\sausensor-server\scriptim" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Gnosis\Desktop\New folder (2)\sausensor-server\src\main\resources\dbre.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/AccountRoles_Roo_Configurable.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/AccountRoles_Roo_Configurable.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/AccountRoles_Roo_JavaBean.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/AccountRoles_Roo_JavaBean.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/AccountRoles_Roo_Jpa_ActiveRecord.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/AccountRoles_Roo_Jpa_ActiveRecord.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/AccountRoles_Roo_Jpa_Entity.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/AccountRoles_Roo_Jpa_Entity.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/AccountRoles_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/AccountRoles_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/AccountRoles_Roo_ToString.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/AccountRoles_Roo_ToString.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Account_Roo_Configurable.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Account_Roo_Configurable.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Account_Roo_JavaBean.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Account_Roo_JavaBean.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Account_Roo_Jpa_ActiveRecord.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Account_Roo_Jpa_ActiveRecord.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Account_Roo_Jpa_Entity.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Account_Roo_Jpa_Entity.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Account_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Account_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Account_Roo_ToString.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Account_Roo_ToString.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/enumtyped/EMts400Results.java" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/enumtyped/EMts400Results.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/controller/Mts400ResultsController_Roo_Controller_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/controller/Mts400ResultsController_Roo_Controller_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400ResultsL_Roo_Configurable.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400ResultsL_Roo_Configurable.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400ResultsL_Roo_DbManaged.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400ResultsL_Roo_DbManaged.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400ResultsL_Roo_Jpa_ActiveRecord.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400ResultsL_Roo_Jpa_ActiveRecord.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400ResultsL_Roo_Jpa_Entity.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400ResultsL_Roo_Jpa_Entity.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400ResultsL_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400ResultsL_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400ResultsL_Roo_ToString.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400ResultsL_Roo_ToString.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400Results_Roo_Configurable.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400Results_Roo_Configurable.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400Results_Roo_DbManaged.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400Results_Roo_DbManaged.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400Results_Roo_Finder.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400Results_Roo_Finder.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400Results_Roo_Jpa_ActiveRecord.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400Results_Roo_Jpa_ActiveRecord.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400Results_Roo_Jpa_Entity.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400Results_Roo_Jpa_Entity.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400Results_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400Results_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400Results_Roo_ToString.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Mts400Results_Roo_ToString.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealthL_Roo_Configurable.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealthL_Roo_Configurable.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealthL_Roo_DbManaged.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealthL_Roo_DbManaged.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealthL_Roo_Finder.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealthL_Roo_Finder.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealthL_Roo_Jpa_ActiveRecord.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealthL_Roo_Jpa_ActiveRecord.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealthL_Roo_Jpa_Entity.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealthL_Roo_Jpa_Entity.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealthL_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealthL_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealthL_Roo_ToString.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealthL_Roo_ToString.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealth_Roo_Configurable.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealth_Roo_Configurable.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealth_Roo_DbManaged.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealth_Roo_DbManaged.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealth_Roo_Finder.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealth_Roo_Finder.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealth_Roo_Jpa_ActiveRecord.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealth_Roo_Jpa_ActiveRecord.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealth_Roo_Jpa_Entity.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealth_Roo_Jpa_Entity.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealth_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealth_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealth_Roo_ToString.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/NodeHealth_Roo_ToString.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Person_Roo_Configurable.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Person_Roo_Configurable.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Person_Roo_JavaBean.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Person_Roo_JavaBean.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Person_Roo_Jpa_ActiveRecord.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Person_Roo_Jpa_ActiveRecord.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Person_Roo_Jpa_Entity.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Person_Roo_Jpa_Entity.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Person_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Person_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Person_Roo_ToString.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Person_Roo_ToString.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Sensor_Roo_Configurable.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Sensor_Roo_Configurable.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Sensor_Roo_Finder.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Sensor_Roo_Finder.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Sensor_Roo_JavaBean.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Sensor_Roo_JavaBean.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Sensor_Roo_Jpa_ActiveRecord.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Sensor_Roo_Jpa_ActiveRecord.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Sensor_Roo_Jpa_Entity.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Sensor_Roo_Jpa_Entity.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Sensor_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Sensor_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Sensor_Roo_ToString.aj" afterPath="$PROJECT_DIR$/src/main/java/edu/sau/sausensor/server/domain/Sensor_Roo_ToString.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/styles/alt.css" afterPath="$PROJECT_DIR$/src/main/webapp/styles/alt.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext-security.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext-security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/menu/category.tagx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/menu/category.tagx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/checkbox.tagx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/checkbox.tagx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/column.tagx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/column.tagx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/create.tagx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/create.tagx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/datetime.tagx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/datetime.tagx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/default.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/default.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/editor.tagx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/editor.tagx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/input.tagx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/input.tagx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/menu/menu.tagx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/menu/menu.tagx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/util/panel.tagx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/util/panel.tagx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/util/placeholder.tagx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/util/placeholder.tagx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/select.tagx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/select.tagx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/styles/standard.css" afterPath="$PROJECT_DIR$/src/main/webapp/styles/standard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/textarea.tagx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/form/fields/textarea.tagx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/webmvc-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/webmvc-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sausensor.iws" />
@@ -207,7 +132,7 @@
       <file leaf-file-name="load-scripts.tagx" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/util/load-scripts.tagx">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="79" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.47040498" vertical-offset="257" max-vertical-offset="578">
+            <state line="28" column="11" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.68025076" vertical-offset="259" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -329,8 +254,75 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sausensor-server">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sausensor-server">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sausensor-server">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="sausensor-server">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sausensor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sausensor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -346,128 +338,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sausensor-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sausensor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sausensor-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sausensor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sausensor-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sausensor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sausensor-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sausensor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sausensor-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sausensor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sausensor-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -493,6 +363,9 @@
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntries" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1389,7 +1262,7 @@
       <workItem from="1389097030683" duration="43000" />
       <workItem from="1389097080483" duration="1085000" />
       <workItem from="1389098217089" duration="2460000" />
-      <workItem from="1389102857036" duration="15313000" />
+      <workItem from="1389102857036" duration="15712000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1389108914740</created>
@@ -1403,11 +1276,15 @@
       <created>1389123779995</created>
       <updated>1389123779995</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit&#10;">
+      <created>1389124403384</created>
+      <updated>1389124403384</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57606000" />
+    <option name="totallyTimeSpent" value="58005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1292" height="732" extended-state="0" />
@@ -1428,7 +1305,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46728972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33124018" sideWeight="0.78582555" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33124018" sideWeight="0.78582555" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1436,7 +1313,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3987441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3081991" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32810047" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32810047" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1839,11 +1716,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/util/load-scripts.tagx">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="79" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.47040498" vertical-offset="257" max-vertical-offset="578">
+        <state line="28" column="11" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.68025076" vertical-offset="259" max-vertical-offset="578">
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>sausensor:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>AspectJ</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sausensor</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
