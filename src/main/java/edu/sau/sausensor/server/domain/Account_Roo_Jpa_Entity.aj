@@ -3,13 +3,7 @@
 
 package edu.sau.sausensor.server.domain;
 
-import edu.sau.sausensor.server.domain.Account;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Version;
+import javax.persistence.*;
 
 privileged aspect Account_Roo_Jpa_Entity {
     

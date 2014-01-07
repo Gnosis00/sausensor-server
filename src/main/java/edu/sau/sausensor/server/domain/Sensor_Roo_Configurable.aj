@@ -3,7 +3,6 @@
 
 package edu.sau.sausensor.server.domain;
 
-import edu.sau.sausensor.server.domain.Sensor;
 import org.springframework.beans.factory.annotation.Configurable;
 
 privileged aspect Sensor_Roo_Configurable {

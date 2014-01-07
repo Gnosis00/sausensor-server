@@ -1,7 +1,7 @@
 package edu.sau.sausensor.server.domain;
 
-import javax.persistence.ManyToOne;
 import javax.persistence.Enumerated;
+import javax.persistence.ManyToOne;
 
 public class Sensor {
 

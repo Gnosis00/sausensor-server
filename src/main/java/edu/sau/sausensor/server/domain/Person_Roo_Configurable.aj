@@ -3,7 +3,6 @@
 
 package edu.sau.sausensor.server.domain;
 
-import edu.sau.sausensor.server.domain.Person;
 import org.springframework.beans.factory.annotation.Configurable;
 
 privileged aspect Person_Roo_Configurable {

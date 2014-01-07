@@ -3,11 +3,11 @@
 
 package edu.sau.sausensor.server.domain;
 
-import edu.sau.sausensor.server.domain.AccountRoles;
-import java.util.List;
+import org.springframework.transaction.annotation.Transactional;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import org.springframework.transaction.annotation.Transactional;
+import java.util.List;
 
 privileged aspect AccountRoles_Roo_Jpa_ActiveRecord {
     

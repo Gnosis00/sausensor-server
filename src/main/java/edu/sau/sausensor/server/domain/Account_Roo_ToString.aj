@@ -3,7 +3,6 @@
 
 package edu.sau.sausensor.server.domain;
 
-import edu.sau.sausensor.server.domain.Account;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 

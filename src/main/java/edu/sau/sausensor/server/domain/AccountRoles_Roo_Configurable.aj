@@ -3,7 +3,6 @@
 
 package edu.sau.sausensor.server.domain;
 
-import edu.sau.sausensor.server.domain.AccountRoles;
 import org.springframework.beans.factory.annotation.Configurable;
 
 privileged aspect AccountRoles_Roo_Configurable {

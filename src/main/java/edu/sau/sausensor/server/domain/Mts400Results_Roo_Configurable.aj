@@ -3,7 +3,6 @@
 
 package edu.sau.sausensor.server.domain;
 
-import edu.sau.sausensor.server.domain.Mts400Results;
 import org.springframework.beans.factory.annotation.Configurable;
 
 privileged aspect Mts400Results_Roo_Configurable {

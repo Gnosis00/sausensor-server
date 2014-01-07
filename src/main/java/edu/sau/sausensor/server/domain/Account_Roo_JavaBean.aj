@@ -3,8 +3,6 @@
 
 package edu.sau.sausensor.server.domain;
 
-import edu.sau.sausensor.server.domain.Account;
-
 privileged aspect Account_Roo_JavaBean {
     
     public String Account.getUsername() {

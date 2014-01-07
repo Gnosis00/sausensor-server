@@ -4,16 +4,11 @@
 package edu.sau.sausensor.server.controller;
 
 import edu.sau.sausensor.server.domain.Mts400Results;
-import edu.sau.sausensor.server.domain.Person;
-import edu.sau.sausensor.server.domain.Sensor;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
 privileged aspect Mts400ResultsController_Roo_Controller_Json {

@@ -3,9 +3,9 @@
 
 package edu.sau.sausensor.server.domain;
 
-import edu.sau.sausensor.server.domain.Person;
 import flexjson.JSONDeserializer;
 import flexjson.JSONSerializer;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;

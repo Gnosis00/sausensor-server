@@ -3,9 +3,6 @@
 
 package edu.sau.sausensor.server.domain;
 
-import edu.sau.sausensor.server.domain.Account;
-import edu.sau.sausensor.server.domain.AccountRoles;
-
 privileged aspect AccountRoles_Roo_JavaBean {
     
     public Account AccountRoles.getAccount() {

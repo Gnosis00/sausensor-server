@@ -3,7 +3,6 @@
 
 package edu.sau.sausensor.server.domain;
 
-import edu.sau.sausensor.server.domain.NodeHealthL;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 

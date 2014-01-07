@@ -3,11 +3,6 @@
 
 package edu.sau.sausensor.server.domain;
 
-import edu.sau.sausensor.server.domain.Area;
-import edu.sau.sausensor.server.domain.Mts400ResultsL;
-import edu.sau.sausensor.server.domain.Person;
-import edu.sau.sausensor.server.domain.Sensor;
-
 privileged aspect Sensor_Roo_JavaBean {
     
     public Mts400ResultsL Sensor.getNodeid() {

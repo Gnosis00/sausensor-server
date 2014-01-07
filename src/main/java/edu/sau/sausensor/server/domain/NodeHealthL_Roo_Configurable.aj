@@ -3,7 +3,6 @@
 
 package edu.sau.sausensor.server.domain;
 
-import edu.sau.sausensor.server.domain.NodeHealthL;
 import org.springframework.beans.factory.annotation.Configurable;
 
 privileged aspect NodeHealthL_Roo_Configurable {

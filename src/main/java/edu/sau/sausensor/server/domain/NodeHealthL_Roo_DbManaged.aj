@@ -3,12 +3,12 @@
 
 package edu.sau.sausensor.server.domain;
 
-import edu.sau.sausensor.server.domain.NodeHealthL;
-import java.util.Calendar;
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.Column;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
-import org.springframework.format.annotation.DateTimeFormat;
+import java.util.Calendar;
 
 privileged aspect NodeHealthL_Roo_DbManaged {
     
