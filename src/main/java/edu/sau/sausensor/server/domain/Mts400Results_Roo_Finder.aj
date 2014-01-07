@@ -6,6 +6,8 @@ package edu.sau.sausensor.server.domain;
 import edu.sau.sausensor.server.domain.Mts400Results;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
+import java.util.Calendar;
+import java.util.Date;
 
 privileged aspect Mts400Results_Roo_Finder {
     
@@ -16,5 +18,13 @@ privileged aspect Mts400Results_Roo_Finder {
         q.setParameter("nodeid", nodeid);
         return q;
     }
-    
+    public static TypedQuery<Mts400Results> Mts400Results.findMts400ResultsesByResultTimeBetween(String date1,String date2) {
+        if (date1 == null || date2==null) throw new IllegalArgumentException("The date1 and date2 argument is required");
+        EntityManager em = Mts400Results.entityManager();
+        TypedQuery<Mts400Results> q = em.createQuery("SELECT o FROM Mts400Results AS o WHERE o.result_time between :date1 and :date2", Mts400Results.class);
+        q.setParameter("date1", date1);
+        q.setParameter("date2", date2);
+
+        return q;
+    }
 }

@@ -4,11 +4,16 @@
 package edu.sau.sausensor.server.controller;
 
 import edu.sau.sausensor.server.domain.Mts400Results;
+import edu.sau.sausensor.server.domain.Person;
+import edu.sau.sausensor.server.domain.Sensor;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 privileged aspect Mts400ResultsController_Roo_Controller_Json {
@@ -23,6 +28,18 @@ privileged aspect Mts400ResultsController_Roo_Controller_Json {
             return new ResponseEntity<String>(headers, HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<String>(mts400Results.toJson(), headers, HttpStatus.OK);
+    }
+
+    @RequestMapping(value = "/{id}/EnumJson", method = RequestMethod.GET, headers = "Accept=application/json")
+    @ResponseBody
+    public ResponseEntity<String> Mts400ResultsController.showEnumJson(@PathVariable("id") Integer id) {
+        Mts400Results mts400Results = Mts400Results.findMts400Results(id);
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Content-Type", "application/json; charset=utf-8");
+        if (mts400Results == null) {
+            return new ResponseEntity<String>(headers, HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<String>(mts400Results.toEnumJson(), headers, HttpStatus.OK);
     }
 
     @RequestMapping(headers = "Accept=application/json")
@@ -93,4 +110,12 @@ privileged aspect Mts400ResultsController_Roo_Controller_Json {
         return new ResponseEntity<String>(Mts400Results.toJsonArray(Mts400Results.findMts400ResultsesByNodeidEquals(nodeid).getResultList()), headers, HttpStatus.OK);
     }
 
+    @RequestMapping(params = "find=ByResultTimeBetween", headers = "Accept=application/json")
+    @ResponseBody
+    public ResponseEntity<String> Mts400ResultsController.jsonFindMts400ResultsesByResultTimeBetween(@RequestParam("date1") String date1,@RequestParam("date2") String date2) {
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Content-Type", "application/json; charset=utf-8");
+        return new ResponseEntity<String>(Mts400Results.toJsonArray(Mts400Results.findMts400ResultsesByResultTimeBetween(date1, date2).getResultList()), headers, HttpStatus.OK);
+    }
+ 
 }

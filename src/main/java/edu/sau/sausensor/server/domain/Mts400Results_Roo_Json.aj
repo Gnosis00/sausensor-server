@@ -26,7 +26,13 @@ privileged aspect Mts400Results_Roo_Json {
     public String Mts400Results.toJson(String[] fields) {
         return new JSONSerializer().include(fields).exclude("*.class").serialize(this);
     }
-    
+    public String Mts400Results.toEnumJson() {
+        ApplicationConversionServiceFactoryBean applicationConversionServiceFactoryBean = new ApplicationConversionServiceFactoryBean();
+
+        EMts400Results eMts400Results=  applicationConversionServiceFactoryBean.getMts400ResultsToEMts400ResultsConverter().convert(this);
+
+        return new JSONSerializer().exclude("*.class").serialize(eMts400Results);
+    }
     public static Mts400Results Mts400Results.fromJsonToMts400Results(String json) {
         return new JSONDeserializer<Mts400Results>().use(null, Mts400Results.class).deserialize(json);
     }
