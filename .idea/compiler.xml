@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AjcSettings">
-    <option name="ajcPath" value="C:\Users\Vostro\.m2\repository\org\aspectj\aspectjtools\1.7.2\aspectjtools-1.7.2.jar" />
+    <option name="ajcPath" value="C:\Users\Gnosis\.m2\repository\org\aspectj\aspectjtools\1.7.2\aspectjtools-1.7.2.jar" />
     <option name="explicitAspectPath" value="true" />
     <option name="delegateToJavac" value="true" />
   </component>
