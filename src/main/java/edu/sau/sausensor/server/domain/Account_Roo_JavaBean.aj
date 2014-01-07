@@ -4,29 +4,29 @@
 package edu.sau.sausensor.server.domain;
 
 privileged aspect Account_Roo_JavaBean {
-    
+
     public String Account.getUsername() {
         return this.username;
     }
-    
+
     public void Account.setUsername(String username) {
         this.username = username;
     }
-    
+
     public String Account.getPassword() {
         return this.password;
     }
-    
+
     public void Account.setPassword(String password) {
         this.password = password;
     }
-    
+
     public Boolean Account.getEnabled() {
         return this.enabled;
     }
-    
+
     public void Account.setEnabled(Boolean enabled) {
         this.enabled = enabled;
     }
-    
+
 }

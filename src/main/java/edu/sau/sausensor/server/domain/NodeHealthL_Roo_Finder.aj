@@ -7,7 +7,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 
 privileged aspect NodeHealthL_Roo_Finder {
-    
+
     public static TypedQuery<NodeHealthL> NodeHealthL.findNodeHealthLsByNodeidEquals(Integer nodeid) {
         if (nodeid == null) throw new IllegalArgumentException("The nodeid argument is required");
         EntityManager em = NodeHealthL.entityManager();
@@ -15,5 +15,5 @@ privileged aspect NodeHealthL_Roo_Finder {
         q.setParameter("nodeid", nodeid);
         return q;
     }
-    
+
 }

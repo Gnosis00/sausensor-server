@@ -112,5 +112,5 @@ privileged aspect Mts400ResultsController_Roo_Controller_Json {
         headers.add("Content-Type", "application/json; charset=utf-8");
         return new ResponseEntity<String>(Mts400Results.toJsonArray(Mts400Results.findMts400ResultsesByResultTimeBetween(date1, date2).getResultList()), headers, HttpStatus.OK);
     }
- 
+
 }

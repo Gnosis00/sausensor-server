@@ -10,39 +10,39 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 
 privileged aspect Mts400Results_Roo_Jpa_ActiveRecord {
-    
+
     @PersistenceContext
     transient EntityManager Mts400Results.entityManager;
-    
+
     public static final EntityManager Mts400Results.entityManager() {
         EntityManager em = new Mts400Results().entityManager;
         if (em == null) throw new IllegalStateException("Entity manager has not been injected (is the Spring Aspects JAR configured as an AJC/AJDT aspects library?)");
         return em;
     }
-    
+
     public static long Mts400Results.countMts400Resultses() {
         return entityManager().createQuery("SELECT COUNT(o) FROM Mts400Results o", Long.class).getSingleResult();
     }
-    
+
     public static List<Mts400Results> Mts400Results.findAllMts400Resultses() {
         return entityManager().createQuery("SELECT o FROM Mts400Results o", Mts400Results.class).getResultList();
     }
-    
+
     public static Mts400Results Mts400Results.findMts400Results(Integer id) {
         if (id == null) return null;
         return entityManager().find(Mts400Results.class, id);
     }
-    
+
     public static List<Mts400Results> Mts400Results.findMts400ResultsEntries(int firstResult, int maxResults) {
         return entityManager().createQuery("SELECT o FROM Mts400Results o", Mts400Results.class).setFirstResult(firstResult).setMaxResults(maxResults).getResultList();
     }
-    
+
     @Transactional
     public void Mts400Results.persist() {
         if (this.entityManager == null) this.entityManager = entityManager();
         this.entityManager.persist(this);
     }
-    
+
     @Transactional
     public void Mts400Results.remove() {
         if (this.entityManager == null) this.entityManager = entityManager();
@@ -53,19 +53,19 @@ privileged aspect Mts400Results_Roo_Jpa_ActiveRecord {
             this.entityManager.remove(attached);
         }
     }
-    
+
     @Transactional
     public void Mts400Results.flush() {
         if (this.entityManager == null) this.entityManager = entityManager();
         this.entityManager.flush();
     }
-    
+
     @Transactional
     public void Mts400Results.clear() {
         if (this.entityManager == null) this.entityManager = entityManager();
         this.entityManager.clear();
     }
-    
+
     @Transactional
     public Mts400Results Mts400Results.merge() {
         if (this.entityManager == null) this.entityManager = entityManager();
@@ -73,5 +73,5 @@ privileged aspect Mts400Results_Roo_Jpa_ActiveRecord {
         this.entityManager.flush();
         return merged;
     }
-    
+
 }

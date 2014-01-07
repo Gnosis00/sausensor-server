@@ -7,7 +7,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 
 privileged aspect Sensor_Roo_Finder {
-    
+
     public static TypedQuery<Sensor> Sensor.findSensorsByArea(Area area) {
         if (area == null) throw new IllegalArgumentException("The area argument is required");
         EntityManager em = Sensor.entityManager();
@@ -15,7 +15,7 @@ privileged aspect Sensor_Roo_Finder {
         q.setParameter("area", area);
         return q;
     }
-    
+
     public static TypedQuery<Sensor> Sensor.findSensorsByNodeid(Mts400ResultsL nodeid) {
         if (nodeid == null) throw new IllegalArgumentException("The nodeid argument is required");
         EntityManager em = Sensor.entityManager();
@@ -23,7 +23,7 @@ privileged aspect Sensor_Roo_Finder {
         q.setParameter("nodeid", nodeid);
         return q;
     }
-    
+
     public static TypedQuery<Sensor> Sensor.findSensorsByPerson(Person person) {
         if (person == null) throw new IllegalArgumentException("The person argument is required");
         EntityManager em = Sensor.entityManager();
@@ -31,5 +31,5 @@ privileged aspect Sensor_Roo_Finder {
         q.setParameter("person", person);
         return q;
     }
-    
+
 }

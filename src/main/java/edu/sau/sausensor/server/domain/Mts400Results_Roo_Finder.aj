@@ -7,7 +7,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 
 privileged aspect Mts400Results_Roo_Finder {
-    
+
     public static TypedQuery<Mts400Results> Mts400Results.findMts400ResultsesByNodeidEquals(Integer nodeid) {
         if (nodeid == null) throw new IllegalArgumentException("The nodeid argument is required");
         EntityManager em = Mts400Results.entityManager();

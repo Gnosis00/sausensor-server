@@ -10,39 +10,39 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 
 privileged aspect Account_Roo_Jpa_ActiveRecord {
-    
+
     @PersistenceContext
     transient EntityManager Account.entityManager;
-    
+
     public static final EntityManager Account.entityManager() {
         EntityManager em = new Account().entityManager;
         if (em == null) throw new IllegalStateException("Entity manager has not been injected (is the Spring Aspects JAR configured as an AJC/AJDT aspects library?)");
         return em;
     }
-    
+
     public static long Account.countAccounts() {
         return entityManager().createQuery("SELECT COUNT(o) FROM Account o", Long.class).getSingleResult();
     }
-    
+
     public static List<Account> Account.findAllAccounts() {
         return entityManager().createQuery("SELECT o FROM Account o", Account.class).getResultList();
     }
-    
+
     public static Account Account.findAccount(Long id) {
         if (id == null) return null;
         return entityManager().find(Account.class, id);
     }
-    
+
     public static List<Account> Account.findAccountEntries(int firstResult, int maxResults) {
         return entityManager().createQuery("SELECT o FROM Account o", Account.class).setFirstResult(firstResult).setMaxResults(maxResults).getResultList();
     }
-    
+
     @Transactional
     public void Account.persist() {
         if (this.entityManager == null) this.entityManager = entityManager();
         this.entityManager.persist(this);
     }
-    
+
     @Transactional
     public void Account.remove() {
         if (this.entityManager == null) this.entityManager = entityManager();
@@ -53,19 +53,19 @@ privileged aspect Account_Roo_Jpa_ActiveRecord {
             this.entityManager.remove(attached);
         }
     }
-    
+
     @Transactional
     public void Account.flush() {
         if (this.entityManager == null) this.entityManager = entityManager();
         this.entityManager.flush();
     }
-    
+
     @Transactional
     public void Account.clear() {
         if (this.entityManager == null) this.entityManager = entityManager();
         this.entityManager.clear();
     }
-    
+
     @Transactional
     public Account Account.merge() {
         if (this.entityManager == null) this.entityManager = entityManager();
@@ -73,5 +73,5 @@ privileged aspect Account_Roo_Jpa_ActiveRecord {
         this.entityManager.flush();
         return merged;
     }
-    
+
 }

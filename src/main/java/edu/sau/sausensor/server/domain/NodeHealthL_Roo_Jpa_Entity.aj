@@ -6,22 +6,22 @@ package edu.sau.sausensor.server.domain;
 import javax.persistence.*;
 
 privileged aspect NodeHealthL_Roo_Jpa_Entity {
-    
+
     declare @type: NodeHealthL: @Entity;
-    
+
     declare @type: NodeHealthL: @Table(schema = "public", name = "node_health_l");
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private Integer NodeHealthL.id;
-    
+
     public Integer NodeHealthL.getId() {
         return this.id;
     }
-    
+
     public void NodeHealthL.setId(Integer id) {
         this.id = id;
     }
-    
+
 }

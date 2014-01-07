@@ -8,7 +8,7 @@ import java.util.Calendar;
  * Created by Vostro on 22.12.2013.
  */
 public class EMts400Results {
-    
+
     private Integer accelX;
 
     private Integer accelY;

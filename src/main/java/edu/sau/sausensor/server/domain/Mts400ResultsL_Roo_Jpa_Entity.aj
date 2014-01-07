@@ -6,22 +6,22 @@ package edu.sau.sausensor.server.domain;
 import javax.persistence.*;
 
 privileged aspect Mts400ResultsL_Roo_Jpa_Entity {
-    
+
     declare @type: Mts400ResultsL: @Entity;
-    
+
     declare @type: Mts400ResultsL: @Table(schema = "public", name = "mts400_results_l");
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private Integer Mts400ResultsL.id;
-    
+
     public Integer Mts400ResultsL.getId() {
         return this.id;
     }
-    
+
     public void Mts400ResultsL.setId(Integer id) {
         this.id = id;
     }
-    
+
 }

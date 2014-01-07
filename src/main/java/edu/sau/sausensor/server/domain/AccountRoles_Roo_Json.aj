@@ -11,29 +11,29 @@ import java.util.Collection;
 import java.util.List;
 
 privileged aspect AccountRoles_Roo_Json {
-    
+
     public String AccountRoles.toJson() {
         return new JSONSerializer().exclude("*.class").serialize(this);
     }
-    
+
     public String AccountRoles.toJson(String[] fields) {
         return new JSONSerializer().include(fields).exclude("*.class").serialize(this);
     }
-    
+
     public static AccountRoles AccountRoles.fromJsonToAccountRoles(String json) {
         return new JSONDeserializer<AccountRoles>().use(null, AccountRoles.class).deserialize(json);
     }
-    
+
     public static String AccountRoles.toJsonArray(Collection<AccountRoles> collection) {
         return new JSONSerializer().exclude("*.class").serialize(collection);
     }
-    
+
     public static String AccountRoles.toJsonArray(Collection<AccountRoles> collection, String[] fields) {
         return new JSONSerializer().include(fields).exclude("*.class").serialize(collection);
     }
-    
+
     public static Collection<AccountRoles> AccountRoles.fromJsonArrayToAccountRoleses(String json) {
         return new JSONDeserializer<List<AccountRoles>>().use(null, ArrayList.class).use("values", AccountRoles.class).deserialize(json);
     }
-    
+
 }

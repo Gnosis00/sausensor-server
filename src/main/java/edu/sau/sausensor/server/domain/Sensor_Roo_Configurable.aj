@@ -6,7 +6,7 @@ package edu.sau.sausensor.server.domain;
 import org.springframework.beans.factory.annotation.Configurable;
 
 privileged aspect Sensor_Roo_Configurable {
-    
+
     declare @type: Sensor: @Configurable;
-    
+
 }

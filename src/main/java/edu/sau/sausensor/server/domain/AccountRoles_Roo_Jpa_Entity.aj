@@ -6,32 +6,32 @@ package edu.sau.sausensor.server.domain;
 import javax.persistence.*;
 
 privileged aspect AccountRoles_Roo_Jpa_Entity {
-    
+
     declare @type: AccountRoles: @Entity;
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private Long AccountRoles.id;
-    
+
     @Version
     @Column(name = "version")
     private Integer AccountRoles.version;
-    
+
     public Long AccountRoles.getId() {
         return this.id;
     }
-    
+
     public void AccountRoles.setId(Long id) {
         this.id = id;
     }
-    
+
     public Integer AccountRoles.getVersion() {
         return this.version;
     }
-    
+
     public void AccountRoles.setVersion(Integer version) {
         this.version = version;
     }
-    
+
 }

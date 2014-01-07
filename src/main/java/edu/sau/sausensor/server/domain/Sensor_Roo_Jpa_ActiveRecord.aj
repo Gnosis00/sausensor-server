@@ -10,39 +10,39 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 
 privileged aspect Sensor_Roo_Jpa_ActiveRecord {
-    
+
     @PersistenceContext
     transient EntityManager Sensor.entityManager;
-    
+
     public static final EntityManager Sensor.entityManager() {
         EntityManager em = new Sensor().entityManager;
         if (em == null) throw new IllegalStateException("Entity manager has not been injected (is the Spring Aspects JAR configured as an AJC/AJDT aspects library?)");
         return em;
     }
-    
+
     public static long Sensor.countSensors() {
         return entityManager().createQuery("SELECT COUNT(o) FROM Sensor o", Long.class).getSingleResult();
     }
-    
+
     public static List<Sensor> Sensor.findAllSensors() {
         return entityManager().createQuery("SELECT o FROM Sensor o", Sensor.class).getResultList();
     }
-    
+
     public static Sensor Sensor.findSensor(Long id) {
         if (id == null) return null;
         return entityManager().find(Sensor.class, id);
     }
-    
+
     public static List<Sensor> Sensor.findSensorEntries(int firstResult, int maxResults) {
         return entityManager().createQuery("SELECT o FROM Sensor o", Sensor.class).setFirstResult(firstResult).setMaxResults(maxResults).getResultList();
     }
-    
+
     @Transactional
     public void Sensor.persist() {
         if (this.entityManager == null) this.entityManager = entityManager();
         this.entityManager.persist(this);
     }
-    
+
     @Transactional
     public void Sensor.remove() {
         if (this.entityManager == null) this.entityManager = entityManager();
@@ -53,19 +53,19 @@ privileged aspect Sensor_Roo_Jpa_ActiveRecord {
             this.entityManager.remove(attached);
         }
     }
-    
+
     @Transactional
     public void Sensor.flush() {
         if (this.entityManager == null) this.entityManager = entityManager();
         this.entityManager.flush();
     }
-    
+
     @Transactional
     public void Sensor.clear() {
         if (this.entityManager == null) this.entityManager = entityManager();
         this.entityManager.clear();
     }
-    
+
     @Transactional
     public Sensor Sensor.merge() {
         if (this.entityManager == null) this.entityManager = entityManager();
@@ -73,5 +73,5 @@ privileged aspect Sensor_Roo_Jpa_ActiveRecord {
         this.entityManager.flush();
         return merged;
     }
-    
+
 }

@@ -4,21 +4,21 @@
 package edu.sau.sausensor.server.domain;
 
 privileged aspect AccountRoles_Roo_JavaBean {
-    
+
     public Account AccountRoles.getAccount() {
         return this.account;
     }
-    
+
     public void AccountRoles.setAccount(Account account) {
         this.account = account;
     }
-    
+
     public String AccountRoles.getAUTHORITY() {
         return this.AUTHORITY;
     }
-    
+
     public void AccountRoles.setAUTHORITY(String AUTHORITY) {
         this.AUTHORITY = AUTHORITY;
     }
-    
+
 }

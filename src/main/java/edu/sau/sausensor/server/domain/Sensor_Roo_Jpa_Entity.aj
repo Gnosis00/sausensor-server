@@ -6,32 +6,32 @@ package edu.sau.sausensor.server.domain;
 import javax.persistence.*;
 
 privileged aspect Sensor_Roo_Jpa_Entity {
-    
+
     declare @type: Sensor: @Entity;
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id")
     private Long Sensor.id;
-    
+
     @Version
     @Column(name = "version")
     private Integer Sensor.version;
-    
+
     public Long Sensor.getId() {
         return this.id;
     }
-    
+
     public void Sensor.setId(Long id) {
         this.id = id;
     }
-    
+
     public Integer Sensor.getVersion() {
         return this.version;
     }
-    
+
     public void Sensor.setVersion(Integer version) {
         this.version = version;
     }
-    
+
 }

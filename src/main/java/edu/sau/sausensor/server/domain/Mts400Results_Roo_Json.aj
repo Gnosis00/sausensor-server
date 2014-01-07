@@ -14,11 +14,11 @@ import java.util.List;
 import java.util.ListIterator;
 
 privileged aspect Mts400Results_Roo_Json {
-    
+
     public String Mts400Results.toJson() {
         return new JSONSerializer().exclude("*.class").serialize(this);
     }
-    
+
     public String Mts400Results.toJson(String[] fields) {
         return new JSONSerializer().include(fields).exclude("*.class").serialize(this);
     }
@@ -32,7 +32,7 @@ privileged aspect Mts400Results_Roo_Json {
     public static Mts400Results Mts400Results.fromJsonToMts400Results(String json) {
         return new JSONDeserializer<Mts400Results>().use(null, Mts400Results.class).deserialize(json);
     }
-    
+
     public static String Mts400Results.toJsonArray(Collection<Mts400Results> collection) {
         return new JSONSerializer().exclude("*.class").serialize(collection);
     }
@@ -53,9 +53,9 @@ privileged aspect Mts400Results_Roo_Json {
     public static String Mts400Results.toJsonArray(Collection<Mts400Results> collection, String[] fields) {
         return new JSONSerializer().include(fields).exclude("*.class").serialize(collection);
     }
-    
+
     public static Collection<Mts400Results> Mts400Results.fromJsonArrayToMts400Resultses(String json) {
         return new JSONDeserializer<List<Mts400Results>>().use(null, ArrayList.class).use("values", Mts400Results.class).deserialize(json);
     }
-    
+
 }
